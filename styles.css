@@ -1,0 +1,242 @@
+html,
+body {
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #EDEDED;
+}
+
+#title {
+    background-color: #EDEDED;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-Bold';
+}
+
+h5 {
+    position: relative;
+    font-family: 'Montserrat-Bold';
+    text-align: left;
+    font-size: 100%;
+
+    bottom: 10px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar {
+    padding-bottom: 2.5rem;
+}
+
+.navbar-brand {
+    color: #212529;
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #212529;
+    font-weight: bold;
+}
+
+button {
+    margin: 5% 3% 5% 0;
+    box-sizing: border-box;
+}
+
+.title-image {
+    position: relative;
+    transform: rotate(0deg);
+    height: 13cm;
+    left: 150px;
+    bottom: 36px;
+}
+
+.title-image-2 {
+    position: relative;
+    height: 10cm;
+    width: 18cm;
+    margin: 20px;
+}
+
+.icon-1 {
+    position: relative;
+    height: 50px;
+}
+
+#features {
+    padding: 7%;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.icon {
+    color: #6B728E;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #50577A;
+}
+
+#testimonials {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #EDEDED;
+}
+
+.text-p {
+    color: black;
+    font-size: 1rem;
+}
+
+#press {
+    background-color: #EDEDED;
+}
+
+.movie {
+    position: relative;
+    right: 50px;
+    height: 260px;
+    text-align: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    display: none;
+}
+
+.container {
+    width: -50px;
+    text-align: center;
+}
+
+.photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.pic {
+    position: relative;
+    height: 230px;
+    width: 50px;
+    border-radius: 10px;
+    height: 10px;
+
+}
+
+.pic image {
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.text {
+    position: relative;
+    right: 35px;
+    font-family: 'Montserrat-Bold';
+    color: black;
+    text-align: left;
+}
+
+.text-1 {
+    position: relative;
+    right: 60px;
+    font-family: 'Montserrat-Bold';
+    color: black;
+    text-align: center;
+}
+
+.carousel-para {
+    color: white;
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+    bottom: 200px;
+    right: 200px;
+    text-align: left;
+}
+
+.carousel-inner img {
+    transform: scale(1.20);
+    opacity: 0.5;
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+#footer {
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+}
+
+.footer {
+    color: black;
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+    padding-left: 10px;
+    height: 430px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.cards-container {
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
+
+.cards-container::-webkit-scrollbar {
+    display: none;
+}
