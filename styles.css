@@ -17,6 +17,8 @@ body {
 }
 
 .container-fluid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 3% 5%;
 }
 
