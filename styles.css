@@ -23,6 +23,7 @@ h1 {
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
+    text-align: center;
 }
 
 h2 {
@@ -59,6 +60,13 @@ p {
     font-weight: bold;
 }
 
+<<<<<<< Updated upstream
+=======
+.fa{
+    color: black;
+}
+
+>>>>>>> Stashed changes
 .nav-item {
     padding: 0 18px;
 }
@@ -69,8 +77,16 @@ p {
     font-weight: bold;
 }
 
+<<<<<<< Updated upstream
 button {
     margin: 5% 3% 5% 0;
+=======
+
+button {
+    margin: 5% auto;
+    /* Center the button horizontally and add 5% top and bottom margin */
+    display: block;
+>>>>>>> Stashed changes
     box-sizing: border-box;
 }
 
@@ -78,10 +94,56 @@ button {
     position: relative;
     transform: rotate(0deg);
     height: 13cm;
+<<<<<<< Updated upstream
     left: 150px;
     bottom: 36px;
 }
 
+=======
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 36px;
+}
+
+/* Media Query for Medium Devices (Tablets) */
+@media (max-width: 991px) {
+    h1 {
+        font-size: 2.5rem;
+        /* Decrease font size for tablets */
+    }
+
+    button {
+        position: relative;
+        left: 180px;
+        font-size: 1.2rem;
+        
+    }
+}
+
+/* Media Query for Small Devices (Landscape Phones) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+        /* Decrease font size for landscape phones */
+    }
+
+    button {
+        font-size: 1rem;
+        /* Decrease font size for landscape phones */
+    }
+
+    .col-lg-6 {
+        text-align: center;
+        /* Center the content horizontally for landscape phones */
+    }
+
+    .col-lg-6 button {
+        display: inline-block; /* Change display to inline-block for buttons on small devices */
+    }
+}
+
+
+>>>>>>> Stashed changes
 .title-image-2 {
     position: relative;
     height: 10cm;
